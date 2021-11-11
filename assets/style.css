@@ -1,0 +1,36 @@
+/* header styles */
+header {
+    padding: 20px 34px;
+    background-color: #17c985;
+    color: #22127c;
+    
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 2px;
+    color: #22127c;
+    padding: 0, 0px, 0, 0;
+   
+}
+
+header a {
+    color: #22127c;
+}
+
+header nav ul li {
+    display: inline; 
+    margin: 0, 35px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+
+/* body */
+body {
+    color: #22127c;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: teal;
+}
