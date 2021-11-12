@@ -12,6 +12,7 @@ header h1 {
     margin: 2px;
     color: #22127c;
     padding: 0, 0px, 0, 0;
+    display: inline;
    
 }
 
@@ -34,3 +35,55 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: teal;
 }
+
+section {
+    padding: 50px;
+}
+/* hero style */
+
+    .hero {
+    background-image: url(./images/sand-1174698.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    
+    }
+
+    .hero h3 {
+    border-bottom: 5px solid;
+    border-color: black;
+    font-size: 34px;
+    color: #22127c;
+    text-align: center;
+    
+    }
+
+    .hero img {
+    width: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    float: left;
+    display: block;
+    padding: 10px;
+
+    }
+
+    .hero p {
+    line-height: 1.5;
+    font-size: 12px;
+    margin: auto;
+    text-align: left;
+    padding: 25px;
+    overflow: auto;
+
+    }
+/* Footer */
+footer {
+    background: #17c985; 
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    margin: 0;
+    }
