@@ -7,6 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     border-bottom: 0px black;
+    justify-content: space-around;
     
 }
 
@@ -89,28 +90,27 @@ section {
     }
 
 /* Work Section */
+   
 
-/*.content img {
-    justify-content: center;
-    justify-content: space-around;
-    display: flex;
-    display: inline-block;
-    padding: 20px 0 20px 40px;
-    */
     
 .work {
     border: solid black; 
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .work img {
     width: 100%;
-    /*padding: 20px 5px 20px 40px; */
+    padding: 10px 5px 20px 40px; 
     width: 350px;
     height: 290px;
-    
- 
-   
+    display:flex;
+    display: grid;
+    justify-content: space-around;
 }
+
 
 .work h3 {
     border-bottom: 5px solid;
@@ -140,8 +140,8 @@ section {
     align-items: center;
 }
 .work-projects img {
-    width: 500px; 
-    height: 390px;
+    width: 450px; 
+    height: 350px;
 }
 
 /* Contact Section */
@@ -152,6 +152,13 @@ section {
     border-top: 0px black;
 }
 
+.form {
+    width: 450px;
+    text-align: left;
+    border: black solid;
+    background-color: tan;
+    padding: 5px 20px 15px 5px;
+}
 
 /*Resume*/
 .resume {
