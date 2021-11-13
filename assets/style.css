@@ -3,8 +3,10 @@ header {
     padding: 10px 7px;
     background-color: #17c985;
     color: #22127c;
-    border: 4px solid black;
+    border: solid black;
     display: flex;
+    justify-content: space-between;
+    border-bottom: 0px black;
     
 }
 
@@ -15,6 +17,7 @@ header h1 {
     color: #22127c;
     padding: 0, 0px, 0, 0;
     display: inline;
+    
    
 }
 
@@ -49,6 +52,9 @@ section {
     background-size: cover;
     background-position: center;
     padding: 50px;
+    border: solid black;
+    border-bottom: 0px black;
+    
     
     }
 
@@ -84,12 +90,25 @@ section {
 
 /* Work Section */
 
+/*.content img {
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    display: inline-block;
+    padding: 20px 0 20px 40px;
+    */
+    
+.work {
+    border: solid black; 
+    
+}
 .work img {
     width: 100%;
-    padding: 20px 5px 20px 40px;
+    /*padding: 20px 5px 20px 40px; */
     width: 350px;
     height: 290px;
-
+    
+ 
    
 }
 
@@ -101,6 +120,43 @@ section {
     text-align: center;
 }
 
+.work h4 {
+    font: 15px; 
+    justify-content: center;
+
+}
+
+.work-projects {
+    border: solid black; 
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.work-robot {
+    border: solid black; 
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+.work-projects img {
+    width: 500px; 
+    height: 390px;
+}
+
+/* Contact Section */
+.contact {
+    
+    border: solid black; 
+    border-bottom: 0px black; 
+    border-top: 0px black;
+}
+
+
+/*Resume*/
+.resume {
+    border: black solid;
+}
 
 /* Footer */
 footer {
@@ -109,4 +165,5 @@ footer {
     padding: 20px;
     margin: 10px;
     margin: 0;
+    border: black solid; 
     }
