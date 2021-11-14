@@ -93,6 +93,9 @@ section {
     border-right: solid black; 
     border-left: solid black;
     justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .work img {
     width: 100%;
@@ -108,7 +111,7 @@ section {
 .work h3 {
     border-color: black;
     font-size: 34px;
-    margin-right: 30%;
+    margin-right: 0%;
     color: #22127c;
     text-align: center;
     padding: 0 0 0 150px;
