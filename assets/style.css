@@ -67,18 +67,18 @@ section {
 
     .hero img {
     width: 18%;
-    margin-top: 5%;
+    margin-top: auto;
     float: left;
     border: black solid;  
     box-shadow: 7px 12px 16px black;
    }
 
     .hero p {
-    line-height: 1.5;
+    line-height: auto;
     font-size: auto;
     margin: auto;
     text-align: left;
-    padding: 25px;
+    padding: 0 0 0 17px;
     overflow: auto;
     }
 
@@ -88,7 +88,6 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 80px 0 0;
 }
 
     
@@ -174,8 +173,7 @@ section {
 }
 
 .work-projects img {
-    width: 450px; 
-    height: 350px;
+    width: 100%;
 }
 
 /* Contact Section */
