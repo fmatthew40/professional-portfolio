@@ -125,7 +125,8 @@ section {
     margin-right:auto;
     margin-left: auto;
     background-color: tan;
-    transform: scale(1.15)
+    width: 450px;
+    height: 374px;
 
 }
 
