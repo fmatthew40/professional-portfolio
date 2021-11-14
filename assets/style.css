@@ -10,6 +10,7 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0; 
+    transform: scale(1.0)
 }
 
 header h1 {
@@ -125,8 +126,7 @@ section {
     margin-right:auto;
     margin-left: auto;
     background-color: tan;
-    width: 450px;
-    height: 374px;
+    transform: scale(1.15)
 
 }
 
