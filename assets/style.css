@@ -5,7 +5,6 @@ header {
     color: #22127c;
     border: solid black;
     display: flex;
-    justify-content: space-between;
     justify-content: space-around;
     text-shadow: 0 9px 14px rgb(68 44 157 / 50%);
     position: sticky;
@@ -15,7 +14,6 @@ header {
 
 header h1 {
     font-weight: bolder;
-    font-size: 25px;
     margin: 10px;
     color: #22127c;
     padding: 0, 0px, 0, 0;
@@ -74,7 +72,7 @@ section {
 
     .hero p {
     line-height: auto;
-    font-size: auto;
+    font-size: 30px;
     margin: auto;
     text-align: left;
     padding: 0 0 0 17px;
