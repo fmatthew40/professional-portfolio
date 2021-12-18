@@ -152,7 +152,8 @@ section {
     transform: scale(1.1);
 }
 
-.coming-soon {
+.coming-soon,
+.boredbrews  {
     border: solid black;
     display: inline-block;
     text-align: center;
@@ -165,6 +166,10 @@ section {
 }
 
 .coming-soon:hover {
+    transform: scale(1.1)
+}
+
+.boredbrews:hover {
     transform: scale(1.1)
 }
 
@@ -214,3 +219,4 @@ footer {
     box-shadow: 7px 12px 16px black;
     text-shadow: 0 9px 14px rgb(68 44 157 / 50%);
 }
+
